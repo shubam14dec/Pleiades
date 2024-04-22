@@ -1,0 +1,29 @@
+.stickimg{
+    width: 100vw;
+    position: relative;
+    max-height: 1rem;
+}
+
+.gofor1{
+    position: relative;
+    top: -24rem;
+    rotate: 40deg;
+    left: 1rem;
+    scale: 1.5;
+    width: 5rem;  
+}
+.gofor2{
+    position: relative;
+    top: -47rem;
+    scale: 0.7;
+    left: 70rem;
+    rotate: 45deg;
+}
+.gofor3{
+    position: relative;
+   left: 65rem;
+   top: -9rem;
+   scale: 2;
+   rotate: 45deg;
+   z-index: 0;
+}

@@ -1,0 +1,22 @@
+.event{
+    width: 18rem;
+    border: solid 2px gray;
+    padding: 1rem;
+    /* padding-right: 2rem; */
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 500ms;
+}
+.event:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.event img{
+    width: 20rem;
+    padding-right: 3rem;
+}
+.head1{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}

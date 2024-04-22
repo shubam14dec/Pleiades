@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.socials{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+.size_social{
+    color: white;
+    scale: 2;
+}

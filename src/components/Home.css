@@ -1,0 +1,10 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    color: white;
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+}

@@ -1,0 +1,27 @@
+.headingevents{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 2rem;
+    margin-top: 5rem;
+    gap: 7rem;
+}
+.heading2{
+    margin-left: 2rem;
+    color: #f6a75e;
+    font-size:3.5rem;
+    font-weight: bolder;
+}
+.headevent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10rem;
+}
+.event2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10rem;
+}

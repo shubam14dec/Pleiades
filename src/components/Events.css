@@ -1,0 +1,18 @@
+.heading{
+    margin-left: 6rem;
+}
+.allevents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0rem;
+}
+.specialevents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}

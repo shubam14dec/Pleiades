@@ -1,0 +1,17 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 8rem;
+    margin-left: 4rem;
+}
+.Abouthead{
+    color: #f6a75e;
+    font-size:3.5rem;
+    font-weight: bolder;
+}
+#aboutpara{
+    max-width: 50rem;
+    font-size: larger;
+}

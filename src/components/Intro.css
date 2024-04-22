@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin-left: 136px;
+    margin-top: -2rem;
+    gap: 5rem;
+    padding-block: 1rem;
+}
+.intro .pleadies{
+    width: 42rem;
+}
+
+.textclass .heading1{
+    color: #f6a75e;
+    font-size:3rem;
+}
+.textclass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    font-size:large;
+    width: 51rem;
+    z-index: 1;
+    font-family: "Pacifico", cursive;
+}

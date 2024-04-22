@@ -1,0 +1,21 @@
+.events{
+    width: 17rem;
+    border: solid 2px gray;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 500ms;
+}
+.events:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+img{
+    width: 15rem;
+    
+}
+.head1{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
