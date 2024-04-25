@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import {scroll} from 'framer-motion'
 import Navbar from './Navbar'
 import Intro from './Intro'
 import HeadingEvents from './HeadingEvents'
@@ -8,6 +7,7 @@ import Aboutus from './Aboutus'
 import Footer from './Footer'
 import Stickimg from './Stickimg'
 import { Countdown } from './Countdown'
+
 
 const Home = () => {
   return (

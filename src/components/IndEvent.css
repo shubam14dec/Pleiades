@@ -1,8 +1,7 @@
 .event{
-    width: 18rem;
+    width: 17.1rem;
     border: solid 2px gray;
     padding: 1rem;
-    /* padding-right: 2rem; */
     border-radius: 10px;
     transition: all;
     transition-duration: 500ms;

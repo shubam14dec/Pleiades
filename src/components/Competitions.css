@@ -1,0 +1,53 @@
+.maincompet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    color: white;
+    background-color: #1a1a1a;
+}
+.compheading{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: #f6a75e;
+    scale: 2;
+    margin-bottom: 3rem;
+}
+.category{
+    display: flex;
+    align-items: start;
+    gap: 12rem;
+    flex-wrap: wrap;
+}
+.subcategory{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction: column;
+    width: 60rem;
+}
+.subheading{
+    font-size: xx-large;
+    color: #f6a75e;
+    font-weight:bold ;
+    scale: 1.5;
+    /* margin-bottom: 3rem; */
+}
+.dance{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.catnav{
+    color: #f6a75e;
+    scale: 3;
+    font-weight: bold;
+    margin-top: 15rem;
+}
+.compimg1{
+    width: 4rem;
+    scale: 1.2;
+}

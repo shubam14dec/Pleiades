@@ -1,0 +1,25 @@
+.eve1{
+    display: flex;
+    gap: 4rem;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+    border: 2px solid gray;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 50rem;
+}
+.eve1:hover{
+    scale: 1.1;
+}
+.eve1heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.head1{
+    font-size:40px;
+}
+.description{
+    font-size: large;
+}
