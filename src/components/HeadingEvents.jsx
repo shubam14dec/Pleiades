@@ -7,7 +7,7 @@ const HeadingEvents = () => {
   return (
     <div className='headingevents'>
         <div className='heading2'>HEADLINIG EVENTS</div>
-        <section className='headevent'>
+        <section className='headevent z-10'>
            <IndEvent/>
            <IndEvent/>
             <IndEvent/>

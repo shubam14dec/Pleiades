@@ -9,7 +9,7 @@ const Navbar = () => {
       <motion.ul 
       initial={{opacity:0,scale:0.2,y:-60}}
       animate={{opacity:1,scale:1,y:0}}
-    transition={{duration:2,delay:1.5}}
+    transition={{duration:1.5,delay:0.5}}
       className='navbar'>
         
         <li className='navhover'><Link to={"/"}>Home</Link></li>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className='navhover'><Link to={"/team"}>Team</Link></li>
         <li className='navhover'><Link to={"/contactus"}>Contact Us</Link></li>
         <li className='navhover'><Link to={"/sponsors"}>Sponsors</Link></li>
-        <li id='register'>Register</li>
+        <li id='register'><Link to={"/pricing"}>Register</Link></li>
       </motion.ul>
 
     </div>

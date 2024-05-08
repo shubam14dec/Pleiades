@@ -31,7 +31,7 @@ const TechHori = () => {
 
 const Card = ({ card }) => {
   return (
-    <Link to={"/competition/event1"}>
+    
     <div
       key={card.id}
       className="group relative h-[450px] w-[850px] min-w-[200px] overflow-hidden cursor-pointer flex border border-solid border-gray p-2 rounded-md items-center gap-32 pl-5"
@@ -49,7 +49,7 @@ const Card = ({ card }) => {
         </p>
       </div>
     </div>
-    </Link>
+    
   );
 };
 

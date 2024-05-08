@@ -3,6 +3,7 @@ import './Events.css'
 import IndEvent from './IndEvent'
 import Special from './Special'
 
+
 const Events = () => {
   return (
     <div className='main'>

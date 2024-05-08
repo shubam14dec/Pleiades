@@ -20,7 +20,7 @@ const Stickimg = () => {
         initial={{rotate:0}}
         animate={{rotate:360}}
         transition={{duration:10,repeat:10}}
-        className='gofor3' src={img4} alt="fire" />
+        className='gofor3 -z-10' src={img4} alt="fire" />
         
     </div>
   )

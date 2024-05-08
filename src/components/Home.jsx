@@ -7,15 +7,19 @@ import Aboutus from './Aboutus'
 import Footer from './Footer'
 import Stickimg from './Stickimg'
 import { Countdown } from './Countdown'
+import Eventtheme from './Eventtheme'
 
 
 const Home = () => {
   return (
     <div className='Home'>
+      <div className='first'>
       <Navbar/>
       <Countdown/>
       <Intro/>
       <Stickimg/>
+      </div>
+      <Eventtheme/>
       <HeadingEvents/>
       <Aboutus/>
       <Footer/> 
