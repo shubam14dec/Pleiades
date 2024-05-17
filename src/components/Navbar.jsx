@@ -5,12 +5,13 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='container'>
+    <div className='flex justify-center items-center'>
       <motion.ul 
       initial={{opacity:0,scale:0.2,y:-60}}
       animate={{opacity:1,scale:1,y:0}}
     transition={{duration:1.5,delay:0.5}}
-      className='navbar'>
+      className='flex justify-center items-center gap-20 font-bold text-lg p-4 max-[420px]:text-2xl
+       text-white rounded-[20rem] px-[3rem] py-[0.5rem] mt-[2rem] z-10 navbar'>
         
         <li className='navhover'><Link to={"/"}>Home</Link></li>
         <li className='navhover'><Link to={"/competition"}>Competitions</Link></li>
@@ -21,6 +22,7 @@ const Navbar = () => {
         <li className='navhover'><Link to={"/sponsors"}>Sponsors</Link></li>
         <li id='register'><Link to={"/pricing"}>Register</Link></li>
       </motion.ul>
+
 
     </div>
   )

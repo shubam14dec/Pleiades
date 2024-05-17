@@ -1,36 +1,7 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vw;
-}
 .navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    list-style-type: none;
-    font-family: eastman grotesque;
-    font-size:x-large;
-    font-weight: bold;
-    flex-wrap: wrap;
-    color: white;
     backdrop-filter: blur(5px) contrast(0);
-    border-radius: 20rem;
-    padding-block: 0.5rem;
-    padding-inline: 3rem;
-    margin-top: 2rem;
-    z-index: 1;
 }
-.MainNavbar{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    gap: 11rem;
-    font-family: eastman grotesque;
-    font-size:x-large;
-    font-weight: bold;
-}
+
 #register{
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #C850C0 0%, #FFCC70 100%);

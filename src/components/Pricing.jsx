@@ -39,7 +39,7 @@ export const AuroraHero = () => {
     </div>
       <div className="relative z-10 flex gap-10 flex-wrap justify-center items-center">
         <Card price={"699"}/>
-        <Card price={"1699"}/>
+        <Card price={"1899"}/>
         </div>
 
       <div className="absolute inset-0 z-0">
