@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './Countdown.css'
-const targetTime = new Date("2024-05-30").getTime();
+const targetTime = new Date("2024-12-22").getTime();
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 </style>
